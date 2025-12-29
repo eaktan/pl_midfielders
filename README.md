@@ -41,6 +41,10 @@ I will also be using different visualizations with my data. These may include:
 - Positional Quadrant Plots: Scatter plot players on a 2-D graph (e.g., Defensive Index vs. Progressive Index) for 2015/16 and 2024/25. - In order to see if midfielder roles (archetypes) have clustered or shifted over time.
 - Radar Charts: Compare the detailed statistical profile of an "old-school" midfielder versus a "modern" midfielder. - In order to highlight the change in the required skill set for the position.
 
+
+
+
+
 1. Analysis:
 
 1.1 Statistical Filtering
@@ -69,7 +73,27 @@ The most prominent feature of the graph is the divergence between Offense and Pr
 
 2.2 Longitudinal Study: Start (2017) vs. End (2025)
 
+Metric            | Start Mean   | End Mean     | % Change   | P-Value
+----------------------------------------------------------------------
+Offense_Index     | 21.70        | 23.52        | +8.4     % | 0.2350
+Defense_Index     | 32.55        | 30.77        | -5.5     % | 0.2751
+Progression_Index | 31.10        | 26.44        | -15.0    % | 0.0136
 
+The Progression Breakthrough: With a p-value of 0.0136, we have statistically significant evidence that the progression role of central midfielders has diminished. A 15% drop in a core KPI over 8 years indicates a fundamental change in the league's "tactical assembly line."
 
+Gradual Offense/Defense Shift: While Offense rose by 8% and Defense fell by 5%, their p-values (> 0.05) suggest these changes are more varied across the league. This indicates that while some teams have moved toward "attacking 8s," others still maintain traditional defensive anchors, keeping the variance high.
 
+2.3 Sequential Change (Year-on-Year)
+To see if there was a "sudden shock" to the system (like the COVID-19 break or a major rule change), we analyzed consecutive seasons.
 
+Comparison                | Offense P  | Defense P  | Prog P    
+-----------------------------------------------------------------
+2017-2018 vs 2018-2019  | 0.9726     | 0.6888     | 0.4517    
+2018-2019 vs 2019-2020  | 0.6660     | 0.3074     | 0.3298    
+2019-2020 vs 2020-2021  | 0.3062     | 0.2977     | 0.2307    
+2020-2021 vs 2021-2022  | 0.1026     | 0.9696     | 0.2413    
+2021-2022 vs 2022-2023  | 0.2712     | 0.8701     | 0.9529    
+2022-2023 vs 2023-2024  | 0.2898     | 0.3348     | 0.5304    
+2023-2024 vs 2024-2025  | 0.3993     | 0.5241     | 0.2882
+
+The high p-values for consecutive seasons prove that football evolution is a "Continuous Improvement" process (Kaizen). There is no single year where the game changed overnight; instead, small tactical adjustments each season have compounded into the significant 15% drop in progression we see today.
