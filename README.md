@@ -31,7 +31,7 @@ My primary data set will be collected from FB.ref. I will be collecting data con
 2) Creating Advanced Metrics for Positional Archetypes
 In football analysis, advanced metrics that are driven from simpler metrics are used in order to get a better statistical understanding of a player’s actions. Throughout the project, I will be creating my own advanced metrics from the data I collected, or will be using pre-determined advanced metrics with my own data. An example of an already used advanced metric is XOva (Expected Offensive Value Added), which mathematically uses the expected goals, expected assists and expected assist received metrics in order to isolate a player’s individual offensive impact. I will be creating various advanced metrics such as this one, so that I can “simplify” one of the aspects of being a midfielder into a statstical value, and use those for my analysis.
 
-4) Statistical Analysis
+3) Statistical Analysis
 I will use statistical tests (such as the T-test) to definitively prove if the mean (average) advanced metrics of midfielders have changed.
 	
 	Hypothesis Example: I will test if the xOVA of midfielders in the last ten seasons is statistically higher than the average in the first five seasons.
@@ -40,6 +40,35 @@ I will also be using different visualizations with my data. These may include:
 - Time-Series Line Plots: Track the average P90 rate for key metrics (e.g., Progressive Passes, Tackles Won) across all 10 seasons - In order to show the overall direction of change over the decade.
 - Positional Quadrant Plots: Scatter plot players on a 2-D graph (e.g., Defensive Index vs. Progressive Index) for 2015/16 and 2024/25. - In order to see if midfielder roles (archetypes) have clustered or shifted over time.
 - Radar Charts: Compare the detailed statistical profile of an "old-school" midfielder versus a "modern" midfielder. - In order to highlight the change in the required skill set for the position.
+
+1. Analysis:
+
+1.1 Statistical Filtering
+I first, had to eliminate players that had minimal playing time througout to seasons in order to prevent "statistical noise" that may be created by late-game substitutes or youth players. In order to achieve this, a strict filter was applied. CIES Football Observatory, the biggest football analysis institution in the world, uses 1000 as its minimum limit for played minutes when including players into their statistical analysis. I also picked 1000 minutes for my minimum limits. This reduced the dataset to approximately 130 "Core Midfielders" per season, representing the true tactical backbone of the league.
+
+1.2 Advanced Indices
+Three composite indices were created to quantify distinct aspects of midfield play. To combine metrics with different units (e.g., yards vs. counts), Min-Max Scaling was applied across the entire 8-year pool. This created a consistent 0–100 benchmark:
+
+- Offense Index: A composite of non-penalty Expected Goals (npxG), Expected Assisted Goals (xAG), Key Passes (KP), and Passes into the Penalty Area (PPA).
+
+- Defense Index: A composite of Tackles + Interceptions (Tkl+Int), Blocks, and Clearances (Clr).
+
+- Progression (Creativity) Index: A composite of Progressive Passing Distance (PrgDist), Passes into the Final Third (1/3), and Progressive Passes (PrgP).
+
+1.3 Hypothesis Testing
+To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
+
+2. Key Findings and Statistical Analysis
+
+2.1 Overall Trend Visualization
+The following graph illustrates the average Index scores for all core midfielders (>= 1000 mins) from 2017 to 2025.
+
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/d8066b61-0941-47e0-bde6-bf8a4353d387" />
+
+The most prominent feature of the graph is the divergence between Offense and Progression. While midfielders are being pushed further forward to contribute to the attack, their traditional role as the primary "ball-progressors" from deep areas is being offloaded to other positions (like inverted fullbacks).
+
+2.2 Longitudinal Study: Start (2017) vs. End (2025)
+
 
 
 
