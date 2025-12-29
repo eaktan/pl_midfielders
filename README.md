@@ -62,7 +62,7 @@ Three composite indices were created to quantify distinct aspects of midfield pl
 
 To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
 
-Key Findings and Statistical Analysis
+Key Findings
 ----------------------------------------
 2.1 Overall Trend Visualization:
 
