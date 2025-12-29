@@ -138,7 +138,7 @@ To validate the statistical model and provide qualitative context to the identif
 Season | Creative Engine | Deep-Lying Progressor | Midfield Anchor | Modern Box-to-Box| 
 --------|----------------| ----------------------| ----------------| -----------------|  
 2017-18	| Cesc Fàbregas (CHE)| 	Fernandinho (MCI)	| Wilfred Ndidi (LEI)	| Granit Xhaka (ARS)| 
-2018-19	| David Silva (MCI)	| Romain Saïss (WOL)	Ricardo Pereira (LEI)	Felipe Anderson (WHU)| 
+2018-19	| David Silva (MCI)	| Romain Saïss (WOL)|	Ricardo Pereira (LEI)|	Felipe Anderson (WHU)| 
 2019-20	| Kevin De Bruyne (MCI)| Jorginho (CHE)| 	Philip Billing (BOU)	| Dani Ceballos (ARS)| 
 2020-21	| Kevin De Bruyne (MCI)| Rúben Neves (WOL)| 	Ethan Ampadu (SHU)| 	Thiago Alcántara (LIV)| 
 2021-22	| Thiago Alcántara (LIV)| Pierre Højbjerg (TOT)| 	Wilfred Ndidi (LEI)| 	Bruno Guimarães (NEW)| 
