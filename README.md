@@ -125,4 +125,27 @@ By applying these labels to 1,049 player-seasons, I generated an "Inventory Coun
 
 <img width="1388" height="790" alt="download (1)" src="https://github.com/user-attachments/assets/72747029-b30b-491a-aac2-e3686237fdf3" />
 
+The most significant structural shift is the 47.3% decline in Deep-Lying Progressors (dropping from 19 to 10 players), which suggests a deliberate decentralization of the ball-progression process away from the midfield engine room. Conversely, the 20% growth in the Modern Box-to-Box archetype—peaking at 21 players in the 2023-2024 season—highlights a systemic move toward functional versatility and multi-purpose operational units. Interestingly, the Midfield Anchor remains a "Fixed Constraint" within the league, maintaining a nearly constant count (25 vs. 24), which proves that regardless of offensive evolution, the system requires a consistent "Safety Stock" of defensive specialists to maintain equilibrium.
+
+3.4 Statistical Validation of Archetype Shifts:
+To verify if the observed changes in the league's tactical composition were statistically significant, a Chi-Square Test of Independence was performed by comparing the archetype distributions of the baseline (2017-2018) and the most recent era (2024-2025). This analysis evaluates whether the "Product Mix" of the Premier League has truly shifted or if the fluctuations are within the bounds of expected variance.
+
+The p-values for individual archetypes reveal a high degree of "Tactical Resilience" within certain roles while highlighting areas of rapid evolution. The Midfield Anchor archetype returned a P-value of 1.000, confirming it as a permanent system constraint that remains virtually untouched by modern tactical trends. In contrast, the Deep-Lying Progressor showed the most aggressive shift with a 47.3% decline and a P-value of 0.1725. While this does not meet the strict 0.05 threshold for total statistical significance, the magnitude of the net change (-9 players) indicates a strong operational trend toward decentralizing the ball-progression process. Furthermore, the Modern Box-to-Box and Creative Engine archetypes returned p-values of 0.6884 and 0.6722, respectively, suggesting that while their roles have evolved in quality (as shown in our earlier index tests), the quantity of these specialists in the league remains relatively stable. Overall, the statistical data supports a narrative of gradual systemic re-engineering rather than a sudden, disruptive transformation.
+
+3.5 Exemplary Role Models by Archetype:
+To validate the statistical model and provide qualitative context to the identified archetypes, we extracted the top-performing player for each category across the eight-season study. This peer-group analysis ensures that the mathematical indexing aligns with the "eye test" of football scouting and tactical reality.
+
+Season,Creative Engine,Deep-Lying Progressor,Midfield Anchor,Modern Box-to-Box
+2017-18,Cesc Fàbregas (CHE),Fernandinho (MCI),Wilfred Ndidi (LEI),Granit Xhaka (ARS)
+2018-19,David Silva (MCI),Romain Saïss (WOL),Ricardo Pereira (LEI),Felipe Anderson (WHU)
+2019-20,Kevin De Bruyne (MCI),Jorginho (CHE),Philip Billing (BOU),Dani Ceballos (ARS)
+2020-21,Kevin De Bruyne (MCI),Rúben Neves (WOL),Ethan Ampadu (SHU),Thiago Alcántara (LIV)
+2021-22,Thiago Alcántara (LIV),Pierre Højbjerg (TOT),Wilfred Ndidi (LEI),Bruno Guimarães (NEW)
+2022-23,Kevin De Bruyne (MCI),Enzo Fernández (CHE),Wilfred Ndidi (LEI),Rodri (MCI)
+2023-24,Kevin De Bruyne (MCI),Pierre Højbjerg (TOT),Edson Álvarez (WHU),Declan Rice (ARS)
+2024-25,Bruno Fernandes (MUN),Casemiro (MUN),Kalvin Phillips (IPS),Youri Tielemans (AVL)
+
+The consistency of certain names—most notably Kevin De Bruyne and Wilfred Ndidi—serves as a benchmark for the model's reliability. De Bruyne's multi-year dominance in the Creative Engine category highlights the "Elite Standard" of the modern playmaker.
+
+The evolution within the Modern Box-to-Box category is particularly telling for this project. The shift from Granit Xhaka (2017) to Declan Rice and Rodri (2023-24) illustrates a systemic change in player profiles: the modern all-rounder is now expected to provide elite ball control and physical defensive coverage simultaneously. Furthermore, the presence of Casemiro and Fernandinho as Deep-Lying Progressors confirms that this role, while declining in volume, remains the domain of highly experienced technical leaders who anchor complex systems.
 
