@@ -152,3 +152,14 @@ The consistency of certain names—most notably Kevin De Bruyne and Wilfred Ndid
 
 The evolution within the Modern Box-to-Box category is particularly telling for this project. The shift from Granit Xhaka (2017) to Declan Rice and Rodri (2023-24) illustrates a systemic change in player profiles: the modern all-rounder is now expected to provide elite ball control and physical defensive coverage simultaneously. Furthermore, the presence of Casemiro and Fernandinho as Deep-Lying Progressors confirms that this role, while declining in volume, remains the domain of highly experienced technical leaders who anchor complex systems.
 
+3.6 Iconic Player Profile Comparison Xhaka (2017) vs. Tielemans (2024):
+To ground the statistical trends in real-world application, a comparative analysis was performed on two prominent midfielders representing the "Modern Box-to-Box" archetype from the start and end of the study period.
+
+<img width="1059" height="875" alt="download (2)" src="https://github.com/user-attachments/assets/6618474b-ccfd-4718-b751-14daac779e8b" />
+
+- The Transition from Volume to Value:
+Granit Xhaka’s 2017-18 profile shows a heavy skew toward the right side of the chart, particularly in Progressive Passes and Passes into the Final Third. This indicates a role focused on "Process Volume"—acting as a high-frequency distributor from deep areas. In contrast, Youri Tielemans (2024-25) shows higher peaks in Key Passes and xAG (Expected Assisted Goals), suggesting a shift toward "Output Efficiency"—producing high-threat chances with fewer, more decisive touches.
+- Defensive Baseline Consistency:
+Despite the seven-year gap and the change in team styles, both players exhibit nearly identical scores in Tackles and Interceptions. This supports our finding that the "Defensive Input" is a fixed system requirement for the Premier League midfielder; while offensive duties evolve, the defensive workload remains a non-negotiable KPI.
+- Decentralization of Build-up:
+The significant reduction in progression metrics for the modern profile (Tielemans) compared to the 2017 profile (Xhaka) is the visual manifestation of our $P=0.0136$ significance finding. It confirms that the task of "moving the ball forward" has been partially offloaded to other units in the team's tactical assembly line (e.g., center-backs or inverted fullbacks), allowing the modern midfielder to focus on final-third creation.
