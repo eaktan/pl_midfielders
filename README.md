@@ -42,10 +42,7 @@ I will also be using different visualizations with my data. These may include:
 - Radar Charts: Compare the detailed statistical profile of an "old-school" midfielder versus a "modern" midfielder. - In order to highlight the change in the required skill set for the position.
 
 
-
-
-
-1. Analysis:
+Analysis:
 ------------------------
 1.1 Statistical Filtering
 I first, had to eliminate players that had minimal playing time througout to seasons in order to prevent "statistical noise" that may be created by late-game substitutes or youth players. In order to achieve this, a strict filter was applied. CIES Football Observatory, the biggest football analysis institution in the world, uses 1000 as its minimum limit for played minutes when including players into their statistical analysis. I also picked 1000 minutes for my minimum limits. This reduced the dataset to approximately 130 "Core Midfielders" per season, representing the true tactical backbone of the league.
@@ -62,7 +59,7 @@ Three composite indices were created to quantify distinct aspects of midfield pl
 1.3 Hypothesis Testing
 To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
 
-2. Key Findings and Statistical Analysis
+Key Findings and Statistical Analysis
 ----------------------------------------
 2.1 Overall Trend Visualization
 The following graph illustrates the average Index scores for all core midfielders (>= 1000 mins) from 2017 to 2025.
