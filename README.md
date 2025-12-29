@@ -135,15 +135,16 @@ The p-values for individual archetypes reveal a high degree of "Tactical Resilie
 3.5 Exemplary Role Models by Archetype:
 To validate the statistical model and provide qualitative context to the identified archetypes, we extracted the top-performing player for each category across the eight-season study. This peer-group analysis ensures that the mathematical indexing aligns with the "eye test" of football scouting and tactical reality.
 
-Season,Creative Engine,Deep-Lying Progressor,Midfield Anchor,Modern Box-to-Box
-2017-18,Cesc Fàbregas (CHE),Fernandinho (MCI),Wilfred Ndidi (LEI),Granit Xhaka (ARS)
-2018-19,David Silva (MCI),Romain Saïss (WOL),Ricardo Pereira (LEI),Felipe Anderson (WHU)
-2019-20,Kevin De Bruyne (MCI),Jorginho (CHE),Philip Billing (BOU),Dani Ceballos (ARS)
-2020-21,Kevin De Bruyne (MCI),Rúben Neves (WOL),Ethan Ampadu (SHU),Thiago Alcántara (LIV)
-2021-22,Thiago Alcántara (LIV),Pierre Højbjerg (TOT),Wilfred Ndidi (LEI),Bruno Guimarães (NEW)
-2022-23,Kevin De Bruyne (MCI),Enzo Fernández (CHE),Wilfred Ndidi (LEI),Rodri (MCI)
-2023-24,Kevin De Bruyne (MCI),Pierre Højbjerg (TOT),Edson Álvarez (WHU),Declan Rice (ARS)
-2024-25,Bruno Fernandes (MUN),Casemiro (MUN),Kalvin Phillips (IPS),Youri Tielemans (AVL)
+Season | Creative Engine | Deep-Lying Progressor | Midfield Anchor | Modern Box-to-Box| 
+--------|----------------| ----------------------| ----------------| -----------------|  
+2017-18	| Cesc Fàbregas (CHE)| 	Fernandinho (MCI)	| Wilfred Ndidi (LEI)	| Granit Xhaka (ARS)| 
+2018-19	| David Silva (MCI)	| Romain Saïss (WOL)	Ricardo Pereira (LEI)	Felipe Anderson (WHU)| 
+2019-20	| Kevin De Bruyne (MCI)| Jorginho (CHE)| 	Philip Billing (BOU)	| Dani Ceballos (ARS)| 
+2020-21	| Kevin De Bruyne (MCI)| Rúben Neves (WOL)| 	Ethan Ampadu (SHU)| 	Thiago Alcántara (LIV)| 
+2021-22	| Thiago Alcántara (LIV)| Pierre Højbjerg (TOT)| 	Wilfred Ndidi (LEI)| 	Bruno Guimarães (NEW)| 
+2022-23	| Kevin De Bruyne (MCI)	| Enzo Fernández (CHE)| 	Wilfred Ndidi (LEI)	| Rodri (MCI)| 
+2023-24	| Kevin De Bruyne (MCI)	| Pierre Højbjerg (TOT)	| Edson Álvarez (WHU)	| Declan Rice (ARS)| 
+2024-25	| Bruno Fernandes (MUN)	| Casemiro (MUN)| 	Kalvin Phillips (IPS)| 	Youri Tielemans (AVL)| 
 
 The consistency of certain names—most notably Kevin De Bruyne and Wilfred Ndidi—serves as a benchmark for the model's reliability. De Bruyne's multi-year dominance in the Creative Engine category highlights the "Elite Standard" of the modern playmaker.
 
