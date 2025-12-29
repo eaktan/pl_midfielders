@@ -44,10 +44,12 @@ I will also be using different visualizations with my data. These may include:
 
 Analysis:
 ------------------------
-1.1 Statistical Filtering
+1.1 Statistical Filtering:
+
 I first, had to eliminate players that had minimal playing time througout to seasons in order to prevent "statistical noise" that may be created by late-game substitutes or youth players. In order to achieve this, a strict filter was applied. CIES Football Observatory, the biggest football analysis institution in the world, uses 1000 as its minimum limit for played minutes when including players into their statistical analysis. I also picked 1000 minutes for my minimum limits. This reduced the dataset to approximately 130 "Core Midfielders" per season, representing the true tactical backbone of the league.
 
-1.2 Advanced Indices
+1.2 Advanced Indices:
+
 Three composite indices were created to quantify distinct aspects of midfield play. To combine metrics with different units (e.g., yards vs. counts), Min-Max Scaling was applied across the entire 8-year pool. This created a consistent 0–100 benchmark:
 
 - Offense Index: A composite of non-penalty Expected Goals (npxG), Expected Assisted Goals (xAG), Key Passes (KP), and Passes into the Penalty Area (PPA).
@@ -56,19 +58,22 @@ Three composite indices were created to quantify distinct aspects of midfield pl
 
 - Progression (Creativity) Index: A composite of Progressive Passing Distance (PrgDist), Passes into the Final Third (1/3), and Progressive Passes (PrgP).
 
-1.3 Hypothesis Testing
+1.3 Hypothesis Testing:
+
 To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
 
 Key Findings and Statistical Analysis
 ----------------------------------------
-2.1 Overall Trend Visualization
+2.1 Overall Trend Visualization:
+
 The following graph illustrates the average Index scores for all core midfielders (>= 1000 mins) from 2017 to 2025.
 
 <img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/d8066b61-0941-47e0-bde6-bf8a4353d387" />
 
 The most prominent feature of the graph is the divergence between Offense and Progression. While midfielders are being pushed further forward to contribute to the attack, their traditional role as the primary "ball-progressors" from deep areas is being offloaded to other positions (like inverted fullbacks).
 
-2.2 Longitudinal Study: Start (2017) vs. End (2025)
+2.2 Longitudinal Study: Start (2017) vs. End (2025):
+
 
 Metric            | Start Mean   | End Mean     | % Change   | P-Value
 Offense_Index     | 21.70        | 23.52        | +8.4     % | 0.2350
@@ -79,7 +84,8 @@ The Progression Breakthrough: With a p-value of 0.0136, we have statistically si
 
 Gradual Offense/Defense Shift: While Offense rose by 8% and Defense fell by 5%, their p-values (> 0.05) suggest these changes are more varied across the league. This indicates that while some teams have moved toward "attacking 8s," others still maintain traditional defensive anchors, keeping the variance high.
 
-2.3 Sequential Change (Year-on-Year)
+2.3 Sequential Change (Year-on-Year):
+
 To see if there was a "sudden shock" to the system (like the COVID-19 break or a major rule change), we analyzed consecutive seasons.
 
 Comparison                | Offense P  | Defense P  | Prog P    
