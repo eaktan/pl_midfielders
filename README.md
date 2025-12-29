@@ -1,15 +1,15 @@
 Sabancı University DSA-210 Term Project: Premier League Midfielders
 
 Project Overview:
-
+------------------
 Football and its tactics has been going through a major evolution over the last decade. How the game is played and what players are being asked to do on the football pitch has drastically changed. I believe where this can be seen the most is in the midfield, as it is the most versatile and, for many people, the most important role within the game. In this project, I will be analyzing game and player data over the last eight years and try to analyze how this shift in player game patterns can be recognized analytically and try to analytically show how the role of midfielder has evolved. Are they more creative, more attacking, more defending, or are they turning into all-round “do-it-all”  players? I will be analyzing the English Premier League, as it has been the biggest (monetarily and according to viewing numbers) league in the last ten years.
 
 Motivation:
-
+-----------------
 As an avid football watcher, I have spent years seemingly observing the tactical shifts that define the modern game. From the stands or the screen, it is clear that the game has undergone a massive evolution over the last decade. I have always been particularly fascinated by the midfield—the "engine room" of the pitch. To me, it is the most versatile and vital role, often serving as the bridge between a team's defensive structure and its offensive ambition. I want to see if I can turn this evolution that I observed with the "eye-test" into an analytical understanding.
 
 Objectives:
-
+----------------
 - Quantitative Proof of Evolution (or non-evolution) : Statistically prove (or not) whether the mean performance of English Premier League midfielders in different aspects of the game has changed significantly across different seasons.
 - Defined Midfield Archetypes: Define and clearly label 2-4 distinct statistical archetypes of midfielders (e.g., "High-Volume Passer," "Modern Box-to-Box," "Deep Playmaker") based on the advanced metrics we create.
 - Time-Series Metric Analysis: Generate Time-Series Line Plots that track the average rates of our advanced metrics across the seasons, visually confirming the direction and speed of positional change (if there are any).
@@ -18,13 +18,13 @@ Objectives:
 
 
 Data Sources:
-
+-------------------
 - FB.ref
 - Transfermarkt
 - Kaggle EPL Data
 
 Analysis Plan:
-
+--------------------
 1) Data Collection
 My primary data set will be collected from FB.ref. I will be collecting data concerning all players that have primarily played as a midfielder in any of the selected seasons. Some of the data points I will be collecting will be goals, assists, tackles, xG (expected goals), passing numbers (progressive, line breaking, into the final third), xA (expected assists), running distances. I will use other sources of data that I have mentioned, in the case that the data I get from FB.ref is incomplete.
 
@@ -46,7 +46,7 @@ I will also be using different visualizations with my data. These may include:
 
 
 1. Analysis:
-
+------------------------
 1.1 Statistical Filtering
 I first, had to eliminate players that had minimal playing time througout to seasons in order to prevent "statistical noise" that may be created by late-game substitutes or youth players. In order to achieve this, a strict filter was applied. CIES Football Observatory, the biggest football analysis institution in the world, uses 1000 as its minimum limit for played minutes when including players into their statistical analysis. I also picked 1000 minutes for my minimum limits. This reduced the dataset to approximately 130 "Core Midfielders" per season, representing the true tactical backbone of the league.
 
@@ -63,7 +63,7 @@ Three composite indices were created to quantify distinct aspects of midfield pl
 To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
 
 2. Key Findings and Statistical Analysis
-
+----------------------------------------
 2.1 Overall Trend Visualization
 The following graph illustrates the average Index scores for all core midfielders (>= 1000 mins) from 2017 to 2025.
 
@@ -74,7 +74,6 @@ The most prominent feature of the graph is the divergence between Offense and Pr
 2.2 Longitudinal Study: Start (2017) vs. End (2025)
 
 Metric            | Start Mean   | End Mean     | % Change   | P-Value
-----------------------------------------------------------------------
 Offense_Index     | 21.70        | 23.52        | +8.4     % | 0.2350
 Defense_Index     | 32.55        | 30.77        | -5.5     % | 0.2751
 Progression_Index | 31.10        | 26.44        | -15.0    % | 0.0136
@@ -87,7 +86,6 @@ Gradual Offense/Defense Shift: While Offense rose by 8% and Defense fell by 5%, 
 To see if there was a "sudden shock" to the system (like the COVID-19 break or a major rule change), we analyzed consecutive seasons.
 
 Comparison                | Offense P  | Defense P  | Prog P    
------------------------------------------------------------------
 2017-2018 vs 2018-2019  | 0.9726     | 0.6888     | 0.4517    
 2018-2019 vs 2019-2020  | 0.6660     | 0.3074     | 0.3298    
 2019-2020 vs 2020-2021  | 0.3062     | 0.2977     | 0.2307    
