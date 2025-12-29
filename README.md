@@ -98,3 +98,31 @@ Comparison                | Offense P  | Defense P  | Prog P
 2023-2024 vs 2024-2025  | 0.3993     | 0.5241     | 0.2882
 
 The high p-values for consecutive seasons prove that football evolution is a "Continuous Improvement" process (Kaizen). There is no single year where the game changed overnight; instead, small tactical adjustments each season have compounded into the significant 15% drop in progression we see today.
+
+Midfielder Archetype Classification & Statistical Methodology
+-------------------------------------------------------------
+
+3.1 Introduction to Functional Archetypes:
+Traditional football analysis often categorizes players by their starting positions (e.g., "Central Midfielder"). However, from a systems-engineering perspective, a position does not necessarily define a function. To capture the true tactical evolution of the Premier League, this study developed a Functional Archetype Model. By grouping players based on their statistical output across three dimensions, we can identify how the "job description" of the midfielder has changed over time.
+
+3.2 Categorization Methodology (Percentile-Based Scoring):
+To ensure the archetypes were robust and relative to the elite standards of the league, a Percentile-Based Classification was utilized. Rather than using arbitrary thresholds, each player's index score was ranked against the entire population of core midfielders (1000+ minutes) from 2017 to 2025.
+
+I defined four primary archetypes based on high-performance "bottlenecks" (Top 30% performance) and one baseline category:
+
+- Creative Engine: Elite offensive threat and ball progression (Top 30% in both).
+
+- Deep-Lying Progressor: Elite defensive coverage and ball progression (Top 30% in both).
+
+- Midfield Anchor: Pure defensive specialization (Top 30% in Defense, Bottom 40% in Offense).
+
+- Modern Box-to-Box: Functional versatility (Balanced output; Top 60% across all three metrics).
+
+- System Rotational: The tactical baseline; players who provide reliable output without extreme specialization in one area.
+
+3.3 Quantitative Analysis:
+By applying these labels to 1,049 player-seasons, I generated an "Inventory Count" of archetypes for each year. This allowed us to track the Supply and Demand of specific skill sets in the league.
+
+<img width="1388" height="790" alt="download (1)" src="https://github.com/user-attachments/assets/72747029-b30b-491a-aac2-e3686237fdf3" />
+
+
