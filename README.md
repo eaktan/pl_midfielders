@@ -163,3 +163,49 @@ Granit Xhaka’s 2017-18 profile shows a heavy skew toward the right side of the
 Despite the seven-year gap and the change in team styles, both players exhibit nearly identical scores in Tackles and Interceptions. This supports our finding that the "Defensive Input" is a fixed system requirement for the Premier League midfielder; while offensive duties evolve, the defensive workload remains a non-negotiable KPI.
 - Decentralization of Build-up:
 The significant reduction in progression metrics for the modern profile (Tielemans) compared to the 2017 profile (Xhaka) is the visual manifestation of our $P=0.0136$ significance finding. It confirms that the task of "moving the ball forward" has been partially offloaded to other units in the team's tactical assembly line (e.g., center-backs or inverted fullbacks), allowing the modern midfielder to focus on final-third creation.
+
+ML Methods: Analysis of Functional Replacements
+------------------------------------------------
+In this part of the project, I tested the "interchangeability" of players within the Premier League system. By treating players as functional components with specific output specifications (Offense, Defense, and Progression), I attempted to find the closest statistical matches for three iconic profiles to see how easily they could be replaced.
+
+4.1 Case Study: The Uniqueness of Kevin De Bruyne (2019-20):
+I attempted to find a functional replacement for Kevin De Bruyne's record-breaking 2019-20 season.
+
+The Result: The analysis showed that De Bruyne is a very unique player. The four closest matches to his prime season were actually himself in different years.
+
+Finding 'Functional Replacements' for Prime De Bruyne (2019-20):
+               Player     Season            Squad  Similarity_Distance
+343   Kevin De Bruyne  2019-2020  Manchester City             0.000000
+874   Kevin De Bruyne  2022-2023  Manchester City             2.318224
+1395  Kevin De Bruyne  2023-2024  Manchester City             2.969730
+598   Kevin De Bruyne  2021-2022  Manchester City             3.652083
+816   Bruno Fernandes  2022-2023   Manchester Utd             3.718293
+1597  Kevin De Bruyne  2024-2025  Manchester City             3.843203
+
+4.2 Case Study: The Standardized Deep-Lying Playmaker (Jorginho):
+I looked for replacements for Jorginho's deep-lying playmaker profile to see if this role is unique to Chelsea’s system.
+
+The Result: I found extremely high interchangeability. Players like Fernandinho (Man City) and Thiago Alcántara (Liverpool) appeared as near-perfect functional matches with very low similarity distances (~1.25).
+
+Finding 'Functional Replacements' for Prime Jorginho (2017-18):
+                Player     Season            Squad  Similarity_Distance
+373           Jorginho  2019-2020          Chelsea             0.000000
+147           Jorginho  2018-2019          Chelsea             1.152347
+1902       Fernandinho  2020-2021  Manchester City             1.166858
+853   Thiago Alcántara  2022-2023        Liverpool             1.256445
+1877  Thiago Alcántara  2020-2021        Liverpool             1.481910
+1955     Thomas Partey  2020-2021          Arsenal             1.598804
+
+5.3 Case Study: The Evolution of the Modern Box-to-Box (Declan Rice)
+Finally, I searched for replacements for Declan Rice’s 2023-24 season at Arsenal to see which past profiles he resembles.
+
+The Result: The analysis uncovered "hidden" similarities. While Rice is often praised for his unique modern style, the data identified Paul Pogba (2020-21) as a near-identical functional match (Distance: 1.17).
+
+Finding 'Functional Replacements' for Prime Declan Rice (2017-18):
+                Player     Season           Squad  Similarity_Distance
+1458       Declan Rice  2023-2024         Arsenal             0.000000
+1181        Aaron Mooy  2017-2018    Huddersfield             1.161134
+1861        Paul Pogba  2020-2021  Manchester Utd             1.171569
+365   Jordan Henderson  2019-2020       Liverpool             1.226344
+1740   Youri Tielemans  2024-2025     Aston Villa             1.292387
+964    Youri Tielemans  2022-2023  Leicester City             1.344559
