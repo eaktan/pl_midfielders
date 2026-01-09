@@ -66,6 +66,10 @@ Three composite indices were created to quantify distinct aspects of midfield pl
 
 To validate if the observed tactical shifts were statistically significant or merely random fluctuations, Independent Samples T-Tests were used to compare the 2017 and 2025 eras. Additionally, One-Way ANOVA was performed across all eight seasons to detect overall "process drift" in the league's midfield profile.
 
+1.4 Machine Leaarning Methods:
+
+For the predictive backbone of this study, I utilized a k-Nearest Neighbors (k-NN) machine learning algorithm, specifically focused on Similarity Search through Euclidean Distance mapping. Unlike traditional supervised learning that requires pre-defined labels, I implemented this Instance-Based Learning approach to identify functional redundancies within a 3-dimensional feature space (Offense, Defense, and Progression).In terms of accuracy, since this is an unsupervised similarity task, I measured the model's performance through Functional Fidelity rather than a traditional percentage-based accuracy score. The accuracy is "self-validated" by the Similarity Distance (d) metric: a distance near 0.0 represents a perfect functional clone, while distances between 1.0 and 2.0 indicate high-confidence "interchangeable components." The model proved remarkably accurate in identifying "face validity" within the Premier League ecosystem. For example, I found that the algorithm correctly identified Kevin De Bruyne as a "Custom Asset" with low interchangeability (as his nearest neighbors were his own past seasons), whereas Jorginho and Thiago were identified as "Standardized Parts" due to their extremely low similarity distance (approx 1.1). By using MinMaxScaler to standardize all inputs to a 0–100 scale before the k-NN search, I ensured that the model's accuracy was not skewed by different units of measurement, providing a mathematically robust framework for squad optimization and talent replacement.
+
 Key Findings
 ----------------------------------------
 2.1 Overall Trend Visualization:
