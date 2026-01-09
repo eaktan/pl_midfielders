@@ -2,45 +2,49 @@ Sabancı University DSA-210 Term Project: Premier League Midfielders
 
 Project Overview:
 ------------------
-Football and its tactics has been going through a major evolution over the last decade. How the game is played and what players are being asked to do on the football pitch has drastically changed. I believe where this can be seen the most is in the midfield, as it is the most versatile and, for many people, the most important role within the game. In this project, I will be analyzing game and player data over the last eight years and try to analyze how this shift in player game patterns can be recognized analytically and try to analytically show how the role of midfielder has evolved. Are they more creative, more attacking, more defending, or are they turning into all-round “do-it-all”  players? I will be analyzing the English Premier League, as it has been the biggest (monetarily and according to viewing numbers) league in the last ten years.
+Football and its tactics have undergone a major evolution over the last decade. Both the way the game is played and the demands placed on players on the pitch have drastically changed. I believe this shift is most visible in the midfield, as it is the most versatile and—for many—the most important role in the game. In this project, I will examine game and player data from the last eight years to identify how these changing patterns can be recognized and to demonstrate analytically how the role of the midfielder has evolved. Are they becoming more creative, more defensive, or are they turning into all-round, “do-it-all” players? I will focus my analysis on the English Premier League, as it has been the world’s largest league (both financially and by viewership) over the last decade.
 
 Motivation:
 -----------------
-As an avid football watcher, I have spent years seemingly observing the tactical shifts that define the modern game. From the stands or the screen, it is clear that the game has undergone a massive evolution over the last decade. I have always been particularly fascinated by the midfield—the "engine room" of the pitch. To me, it is the most versatile and vital role, often serving as the bridge between a team's defensive structure and its offensive ambition. I want to see if I can turn this evolution that I observed with the "eye-test" into an analytical understanding.
+As an avid football follower, I have spent years observing the tactical shifts that define the modern game. From the stands or the screen, it is clear that the sport has undergone a massive evolution over the last decade. I have always been particularly fascinated by the midfield—the "engine room" of the pitch. To me, it is the most versatile and vital role, often serving as the bridge between a team's defensive structure and its offensive ambition. In this project, I aim to translate the evolution I have observed through the "eye-test" into a rigorous analytical understanding.
 
 Objectives:
 ----------------
-- Quantitative Proof of Evolution (or non-evolution) : Statistically prove (or not) whether the mean performance of English Premier League midfielders in different aspects of the game has changed significantly across different seasons.
-- Defined Midfield Archetypes: Define and clearly label 2-4 distinct statistical archetypes of midfielders (e.g., "High-Volume Passer," "Modern Box-to-Box," "Deep Playmaker") based on the advanced metrics we create.
-- Time-Series Metric Analysis: Generate Time-Series Line Plots that track the average rates of our advanced metrics across the seasons, visually confirming the direction and speed of positional change (if there are any).
-- Positional Role Shift Visualization: Produce Positional Quadrant Plots that clearly illustrate the shift in the entire population of midfielders between the beginning and end of the decade (if there is any), showing whether players are becoming more "all-round" or more specialized.
-- Iconic Player Profile Comparison: Create Radar Charts comparing the statistical profiles of at least two iconic midfielders from different eras, showcasing the specific differences in the skill demands of the role.
+Quantitative Proof of Evolution (or Consistency): Statistically determine whether the mean performance metrics of English Premier League midfielders have changed significantly across different seasons.
+
+Defined Midfield Archetypes: Define and label 2–4 distinct statistical archetypes (e.g., "High-Volume Passer," "Modern Box-to-Box," "Deep-Lying Playmaker") based on the advanced metrics developed in this study.
+
+Time-Series Metric Analysis: Generate time-series line plots to track the average rates of advanced metrics across seasons, visually confirming the direction and velocity of positional change.
+
+Positional Role Shift Visualization: Produce positional quadrant plots to illustrate the shift in the midfielder population between the beginning and end of the decade, identifying whether players are becoming more "all-round" or more specialized.
+
+Iconic Player Profile Comparison: Create radar charts comparing the statistical profiles of at least two iconic midfielders from different eras, showcasing the specific differences in the skill demands of the role.
 
 
 Data Sources:
 -------------------
 - FB.ref
-- Transfermarkt
-- Kaggle EPL Data
 
 Analysis Plan:
 --------------------
-1) Data Collection
-My primary data set will be collected from FB.ref. I will be collecting data concerning all players that have primarily played as a midfielder in any of the selected seasons. Some of the data points I will be collecting will be goals, assists, tackles, xG (expected goals), passing numbers (progressive, line breaking, into the final third), xA (expected assists), running distances. I will use other sources of data that I have mentioned, in the case that the data I get from FB.ref is incomplete.
+1) Data Collection:
+My primary dataset will be sourced from FBref, covering all players who primarily operated as midfielders during the selected seasons. The data points will include goals, assists, tackles, xG (Expected Goals), passing statistics (progressive passes, line-breaking passes, passes into the final third), xA (Expected Assists), and running distances. I will supplement this with secondary sources if the FBref data is incomplete for specific seasons.
 
-2) Creating Advanced Metrics for Positional Archetypes
-In football analysis, advanced metrics that are driven from simpler metrics are used in order to get a better statistical understanding of a player’s actions. Throughout the project, I will be creating my own advanced metrics from the data I collected, or will be using pre-determined advanced metrics with my own data. An example of an already used advanced metric is XOva (Expected Offensive Value Added), which mathematically uses the expected goals, expected assists and expected assist received metrics in order to isolate a player’s individual offensive impact. I will be creating various advanced metrics such as this one, so that I can “simplify” one of the aspects of being a midfielder into a statstical value, and use those for my analysis.
+2) Creating Advanced Metrics for Positional Archetypes:
+In football analytics, advanced metrics derived from basic stats are essential for a nuanced understanding of player performance. Throughout this project, I will develop custom advanced metrics or apply established formulas to my dataset. An example of such a metric is xOVA (Expected Offensive Value Added), which mathematically combines expected goals and expected assists to quantify a player’s individual offensive impact. By "simplifying" complex phases of play into these statistical values, I can better categorize and analyze midfielder behavior.
 
-3) Statistical Analysis
-I will use statistical tests (such as the T-test) to definitively prove if the mean (average) advanced metrics of midfielders have changed.
-	
-	Hypothesis Example: I will test if the xOVA of midfielders in the last ten seasons is statistically higher than the average in the first five seasons.
+3) Statistical Analysis:
+I will employ statistical tests—specifically the T-test or ANOVA—to determine if the mean values of these advanced metrics have shifted significantly over time.
 
-I will also be using different visualizations with my data. These may include:
-- Time-Series Line Plots: Track the average P90 rate for key metrics (e.g., Progressive Passes, Tackles Won) across all 10 seasons - In order to show the overall direction of change over the decade.
-- Positional Quadrant Plots: Scatter plot players on a 2-D graph (e.g., Defensive Index vs. Progressive Index) for 2015/16 and 2024/25. - In order to see if midfielder roles (archetypes) have clustered or shifted over time.
-- Radar Charts: Compare the detailed statistical profile of an "old-school" midfielder versus a "modern" midfielder. - In order to highlight the change in the required skill set for the position.
+Hypothesis Example: I will test whether the average xOVA of midfielders in the most recent five seasons is statistically higher than the average from the first five seasons of the decade.
 
+I will also utilize the following visualizations:
+
+Time-Series Line Plots: To track the average Per 90 (P90) rates for key metrics (e.g., Progressive Passes, Tackles Won) across the decade, illustrating the overall trajectory of the position.
+
+Positional Quadrant Plots: To scatter plot players on a 2-D graph (e.g., Defensive Index vs. Progressive Index) comparing the 2015/16 and 2024/25 seasons. This will reveal if midfielder archetypes have clustered or shifted over time.
+
+Radar Charts: To compare the multi-dimensional statistical profiles of "old-school" vs. "modern" midfielders, highlighting the evolution of the required skill set.
 
 Analysis:
 ------------------------
